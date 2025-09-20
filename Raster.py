@@ -8,8 +8,6 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 
 pygame.display.set_caption("Raster")
 done = False
-fundo = pygame.image.load('image/png2.png')
-sprite = pygame.image.load('image/png1.png')
 
 while not done:
     for event in pygame.event.get():
